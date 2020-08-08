@@ -1,10 +1,13 @@
-# This is a Repository Consist of simple frontend projects using HTML5,CSS3 and Vanilla JavaScript
-## Projects Completed 
+## My Projects 
 
-```
-   Tip Calculator
-   Corona Map 
-```
+### Tip Calculator
+
+<a href = "https://imyogeshgaur.github.io/tipcalculator/"> Tip Calculator </a>
+
+### Corona Virus Visualizer
+
+<a href = "https://imyogeshgaur.github.io/mapbox_visual/"> Corona Virus Visulaizer </a>
+
 ## For More projects like this please visit my github website
 
 <a href = 'https://imyogeshgaur.github.io' target="_yogesh"> My Online Portfolio </a>
