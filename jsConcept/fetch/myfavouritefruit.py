@@ -1,0 +1,1 @@
+list = ['Mango','Apple','Guava']
