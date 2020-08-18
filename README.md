@@ -16,6 +16,10 @@
 
 <a href="https://imyogeshgaur.github.io/txt_to_speech_js/"> Text To Speech </a>
 
+## Analog Clock 
+
+<a href = "https://imyogeshgaur.github.io/analog_clock/"> Analog Clock </a>
+
 ## For More projects like this please visit my github website
 
 <a href = 'https://imyogeshgaur.github.io' target="_yogesh"> My Online Portfolio </a>
