@@ -18,7 +18,7 @@
 
 ## Racing Car
 
-<a href = "https://imyogeshgaur.github.io/racing_car/"> Racing Car </a>
+<a href="https://imyogeshgaur.github.io/racing_car/"> Racing Car </a>
 
 ## Analog Clock 
 
