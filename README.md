@@ -16,15 +16,13 @@
 
 <a href="https://imyogeshgaur.github.io/txt_to_speech_js/"> Text To Speech </a>
 
-<<<<<<< HEAD
 ## Racing Car
 
 <a href = "https://imyogeshgaur.github.io/racing_car/"> Racing Car </a>
-=======
+
 ## Analog Clock 
 
 <a href = "https://imyogeshgaur.github.io/analog_clock/"> Analog Clock </a>
->>>>>>> 12ea716030d631e96e6bd616d2f9a8cc8de68cd3
 
 ## For More projects like this please visit my github website
 
