@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+div {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+div ul {
+  display: flex;
+  border-bottom: 10px solid rgb(76, 129, 104);
+}
+div ul li {
+  width: 50px;
+  height: 50px;
+  background-color: black;
+  list-style: none;
+  margin: 0 10px;
+  border-radius: 50%;
+  animation: bounce 5s linear infinite;
+}
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-200px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+ul li:nth-child(1) {
+  animation-delay: 1s;
+  background-image: linear-gradient(red, rgb(219, 219, 219), blue);
+}
+ul li:nth-child(2) {
+  animation-delay: 3s;
+  background-image: linear-gradient(
+    rgb(255, 153, 0),
+    rgb(204, 54, 204),
+    rgb(115, 212, 120)
+  );
+}
+ul li:nth-child(3) {
+  animation-delay: 5s;
+  background-image: linear-gradient(
+    rgb(0, 255, 55),
+    rgb(90, 132, 223),
+    rgb(0, 217, 255)
+  );
+}
+ul li:nth-child(4) {
+  animation-delay: 7s;
+  background-image: linear-gradient(
+    rgb(0, 195, 255),
+    rgba(104, 106, 240, 0.699),
+    rgb(133, 73, 73)
+  );
+}
+ul li:nth-child(5) {
+  animation-delay: 6s;
+  background-image: linear-gradient(red, rgb(0, 128, 11), blue);
+}
+ul li:nth-child(6) {
+  animation-delay: 4s;
+  background-image: linear-gradient(rgb(238, 255, 0), rgb(22, 221, 228), blue);
+}
+ul li:nth-child(7) {
+  animation-delay: 2s;
+  background-image: linear-gradient(
+    rgb(68, 0, 255),
+    rgb(149, 233, 149),
+    rgb(133, 73, 73)
+  );
+}
