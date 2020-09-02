@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music Player</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+      integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="main_div">
+      <div class="music_container">
+        <h2 id="title">Music1</h2>
+        <h3 id="artist">Artist1</h3>
+        <div class="img_container">
+          <img src="images/Astronomia.jpg" alt="m1" />
+        </div>
+        <audio src="sound/Astronomia.mp3"></audio>
+
+        <div class="music_controls">
+          <i class="fas fa-backward" id="prev" title="previous"></i>
+          <i class="fas fa-play main_button" id="play" title="play"></i>
+          <i class="fas fa-forward" id="next" title="next"></i>
+        </div>
+      </div>
+    </div>
+    <script src="js/index.js"></script>
+  </body>
+</html>
