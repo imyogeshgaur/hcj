@@ -21,6 +21,12 @@
 
 <a href="https://imyogeshgaur.github.io/txt_to_speech_js/"> Text To Speech </a>
 
+## Rainbow Circles In Canvas
+<a href="https://imyogeshgaur.github.io/rainbow_circle_in_canvas/">Rainbow Circles in Canvas</a>
+
+## ColourFull Blast 
+<a href="https://imyogeshgaur.github.io/bubbles_explode/">ColourFull Blast </a>
+
 ## For More projects like this please visit my github website
 
 <a href = 'https://imyogeshgaur.github.io' target="_yogesh"> My Online Portfolio </a>
