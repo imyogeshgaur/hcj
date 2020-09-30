@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+      integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I"
+      crossorigin="anonymous"
+    />
+    <title>Courses Page</title>
+    <style>
+      #c1:hover {
+        box-shadow: -1px 9px 29px 13px rgba(204, 0, 255, 0.74);
+      }
+      #c2:hover {
+        box-shadow: -1px 9px 29px 13px rgba(0, 255, 42, 0.781);
+      }
+      #c3:hover {
+        box-shadow: -1px 9px 29px 13px rgb(255, 115, 0, 0.75);
+      }
+      #c4:hover {
+        box-shadow: -1px 9px 29px 13px rgba(238, 255, 0, 0.87);
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">AKTU COURSE PORTAL</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link inactive"
+                aria-current="page"
+                href="https://aktu.ac.in"
+                target="_yogesh"
+                >Our Website</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page">Courses Offered</a>
+            </li>
+          </ul>
+          <a href="signup.html" class="btn btn-danger"> Logout </a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- courses cards -->
+
+    <div class="row row-cols-1 row-cols-md-2 g-4 my-3 mx-2">
+      <div class="col">
+        <div class="card" id="c1">
+          <img src="/img/pic4.jpg" class="card-img-top" alt="DSA" />
+          <div class="card-body">
+            <h3 class="card-title">Machine Leraning</h3>
+            <h5>
+              <p class="card-text">₹ 15000</p>
+              <label for="courses">Number Of Courses</label>
+              <select id="courses" name="courses">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+              </select>
+            </h5>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card" id="c2">
+          <img src="/img/pic5.jpg" class="card-img-top" alt="OS" />
+          <div class="card-body">
+            <h3 class="card-title">Cyber Security</h3>
+            <h5>
+              <p class="card-text">₹ 10000</p>
+              <label for="courses">Number Of Courses</label>
+              <select id="courses" name="courses">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+              </select>
+            </h5>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card" id="c3">
+          <img src="/img/pic6.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h3 class="card-title">Web development</h3>
+            <h5>
+              <p class="card-text">₹ 8000</p>
+              <label for="courses">Number Of Courses</label>
+              <select id="courses" name="courses">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+              </select>
+            </h5>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card" id="c4">
+          <img src="/img/pic7.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h3 class="card-title">Digital Marketing</h3>
+            <h5>
+              <p class="card-text">₹ 6000</p>
+              <label for="courses">Number Of Courses</label>
+              <select id="courses" name="courses">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+              </select>
+            </h5>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- Popper.js first, then Bootstrap JS -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+      integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
