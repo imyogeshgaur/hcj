@@ -1,40 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-    <div class="main_header">
-        <div class="center_div">
-            <p>
-                🎂 Happy Birthday To You !!!! 🎂
-                <br>
-                🥳 May God Bless you !!!! 🥳
-            </p>
-        </div>
-    </div>
-<script src="js/index.min.js"></script>
-<script>
-    // const startit = () =>{
-    //     setTimeout(() => {
-    //         console.log('start');
-    //         confetti.start();
-    //     }, 1000);
-    // }
-    // const stopit = () =>{
-    //     setTimeout(() => {
-    //         console.log('stop');
-    //         confetti.start();
-    //     }, 6000);
-    // }
-    var confettiSettings = { target: 'my-canvas' };
-var confetti = new ConfettiGenerator(confettiSettings);
-confetti.render();
-//   startit();
-//   stopit();
-</script>
-</body>
+  <head>
+    <meta charset="utf-8" />
+    <title>Confetti</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+  </head>
+  <body style="overflow: hidden; background: black">
+    <canvas id="confetti"></canvas>
+    <script src="confetti.js"></script>
+  </body>
 </html>
