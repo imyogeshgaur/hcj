@@ -27,6 +27,9 @@
 ## ColourFull Blast 
 <a href="https://imyogeshgaur.github.io/bubbles_explode/">ColourFull Blast </a>
 
+## Confetti Effect 
+<a href="https://imyogeshgaur.github.io/confetti_effect_in_canvas/">Confetti Effect Using Canvas</a>
+
 ## For More projects like this please visit my github website
 
 <a href = 'https://imyogeshgaur.github.io' target="_yogesh"> My Online Portfolio </a>
