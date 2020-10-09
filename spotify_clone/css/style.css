@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat|Oswald&display=swap");
+
+#loader {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-size: 40px;
+  background-color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+#app {
+  display: none;
+}
+
+body {
+  background-image: linear-gradient(rgb(86, 76, 113), rgb(24, 23, 26));
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.header {
+  display: flex;
+  width: 100%;
+  height: 7vh;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+  margin-top: 3vh;
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+  /*background-color: grey;*/
+}
+
+.song-details {
+  /*background-color: grey;*/
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.act-img {
+  width: 150px;
+  height: 150px;
+  border: 1px solid white;
+  box-shadow: 0px 0px 10px 1px black;
+}
+
+#song-name,
+#artist-name {
+  width: 100%;
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  color: white;
+}
+#song-name {
+  font-weight: bolder;
+  margin-bottom: 5px;
+}
+#artist-name {
+  color: #999;
+  font-size: 18px;
+}
+
+.slide-control {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.timing {
+  width: 90%;
+  margin-left: 5%;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+.button-control {
+  width: 100%;
+  /*background-color: grey;*/
+  height: 20vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#play {
+  width: 60px;
+  height: 60px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  border-radius: 50px;
+}
+
+#next,
+#prev,
+#download,
+#like {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  color: white;
+}
+
+#download,
+#like {
+  font-size: 20px;
+}
