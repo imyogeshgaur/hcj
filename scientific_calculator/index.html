@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scientific Calculator</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="phone">
+      <div class="fcamera"></div>
+      <div class="clens"></div>
+      <div class="speaker"></div>
+      <div class="screen">
+        <div class="display">0</div>
+        <div class="expression"></div>
+        <div class="buttons clearfix">
+          <div class="clear reset" onclick="clearScreen.call(this)">
+            CE
+            <div class="waveButton"></div>
+          </div>
+          <div
+            class="del reset"
+            data-number="8"
+            onclick="deleteANumber.call(this)"
+          >
+            C
+            <div class="waveButton"></div>
+          </div>
+          <div class="sign reset" onclick="alternateSign.call(this)">
+            -M
+            <div class="waveButton"></div>
+          </div>
+
+          <div class="sci-ops" onclick="sin.call(this)">
+            sin
+            <div class="waveButton"></div>
+          </div>
+          <div class="sci-ops" onclick="cos.call(this)">
+            cos
+            <div class="waveButton"></div>
+          </div>
+          <div class="sci-ops" onclick="tan.call(this)">
+            tan
+            <div class="waveButton"></div>
+          </div>
+          <div class="sci-ops" onclick="exp.call(this)">
+            exp
+            <div class="waveButton"></div>
+          </div>
+          <div class="sci-ops" onclick="log.call(this)">
+            log
+            <div class="waveButton"></div>
+          </div>
+          <div class="sci-ops" onclick="log2.call(this)">
+            log<sub>2</sub>
+            <div class="waveButton"></div>
+          </div>
+          <div class="sci-ops" onclick="pow.call(this)">
+            x<sup>2</sup>
+            <div class="waveButton"></div>
+          </div>
+          <div class="sci-ops" onclick="sqrt.call(this)">
+            &#8730;x
+            <div class="waveButton"></div>
+          </div>
+
+          <div class="number" data-number="55">
+            7
+            <div class="waveButton"></div>
+          </div>
+          <div class="number" data-number="56">
+            8
+            <div class="waveButton"></div>
+          </div>
+          <div class="number" data-number="57">
+            9
+            <div class="waveButton"></div>
+          </div>
+          <div class="basic-ops" data-number="107">
+            +
+            <div class="waveButton"></div>
+          </div>
+
+          <div class="number" data-number="52">
+            4
+            <div class="waveButton"></div>
+          </div>
+          <div class="number" data-number="53">
+            5
+            <div class="waveButton"></div>
+          </div>
+          <div class="number" data-number="54">
+            6
+            <div class="waveButton"></div>
+          </div>
+          <div class="basic-ops" data-number="109">
+            -
+            <div class="waveButton"></div>
+          </div>
+
+          <div class="number" data-number="49">
+            1
+            <div class="waveButton"></div>
+          </div>
+          <div class="number" data-number="50">
+            2
+            <div class="waveButton"></div>
+          </div>
+          <div class="number" data-number="51">
+            3
+            <div class="waveButton"></div>
+          </div>
+          <div class="basic-ops" data-number="106">
+            *
+            <div class="waveButton"></div>
+          </div>
+
+          <div class="number" data-number="48">
+            0
+            <div class="waveButton"></div>
+          </div>
+          <div class="number" data-number="110">
+            .
+            <div class="waveButton"></div>
+          </div>
+          <div class="equals" data-number="13" onclick="equals.call(this)">
+            &#61;
+            <div class="waveButton"></div>
+          </div>
+          <div class="basic-ops" data-number="111">
+            /
+            <div class="waveButton"></div>
+          </div>
+        </div>
+      </div>
+      <div class="lock_btn"></div>
+      <div class="volume_btn"></div>
+      <div class="task_bar"></div>
+
+      <script src="js/index.js"></script>
+    </div>
+  </body>
+</html>
