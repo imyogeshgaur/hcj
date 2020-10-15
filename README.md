@@ -1,5 +1,9 @@
 ## My Projects 
 
+## Scientific Calculator
+
+<a href="https://imyogeshgaur.github.io/scientific_calculator/"> Scientific Calculator </a>
+
 ## Bouncing Balls 
 
 <a href="https://imyogeshgaur.github.io/bounce_and_bgchange/"> Bouncing Balls </a>
