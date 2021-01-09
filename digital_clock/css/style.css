@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap");
+
+body {
+  font-family: "Inconsolata", monospace;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  background: #2c2f3b;
+  overflow-y: hidden;
+}
+#container {
+  width: 23.43vw;
+  height: 48.70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+  font-size: 32px;
+  border-radius: 50%;
+  background: rgb(36, 37, 51);
+  margin-top: 20vh;
+}
+.blink-colon {
+  animation: blink 1s infinite;
+}
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  30% {
+    opacity: 0.4;
+  }
+}
+.date-container {
+  margin-top: 6vh;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.8);
+}
